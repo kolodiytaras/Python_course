@@ -28,7 +28,7 @@ else:
     second_slicing = second_slicing.replace('(', ')')
      
     my_correct_output = first_slicing + first_dig + ', ' + second_dig + second_slicing
-    print (my_correct_output)
+    print ("my_correct_output is: ", my_correct_output)
     print ("")
     
     a2 = my_correct_output.count('(')
