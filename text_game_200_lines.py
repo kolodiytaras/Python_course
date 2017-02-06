@@ -200,5 +200,5 @@ else:
             time.sleep(3)
             million()
         else:
-            print("Sorry. The name is not allowed")
+            print("Вибачте. Ви ввели не коректне імя")
             exit(0)
