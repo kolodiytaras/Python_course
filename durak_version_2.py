@@ -83,7 +83,7 @@ def main_program():
                 else:
                     second_player.remove(all_cozur_player[0])
 
-                print("Карта успішно побита")
+                print("Карта успішно побита копютером")
 
                 if len(list_card) > 0:
                     first_player.append(list_card[-1])
@@ -134,6 +134,8 @@ def main_program():
                     first_player.remove(j)
                 else:
                     first_player.remove(all_cozur_player[0])
+
+                print("Карта успішно побита " + name_1)
 
                 if len(list_card) > 0:
                     first_player.append(list_card[-1])
